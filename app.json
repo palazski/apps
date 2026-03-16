@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "store": {
+    "name": "NodePad",
+    "developer": "Abdullah Palaz",
+    "github": "https://github.com/palazski"
+  },
+  "apps": [
+    {
+      "id": "nodepad",
+      "name": "NodePad",
+      "subtitle": "A visual workspace for cognition-heavy non-linear LLM conversations",
+      "description": "Construct, branch, and explore LLM conversations as directed graphs on an infinite canvas. Break free from linear chat with complete spatial control over your context.",
+      "longDescription": "NodePad is a visual workspace designed for high-agency users who find traditional, linear AI chats limiting. Every user message and AI response becomes an independent, addressable node on an infinite canvas. This graph-native architecture allows you to seamlessly branch conversations into parallel threads from any point, explore alternative approaches side-by-side, and easily switch between multiple LLM providers within the same workspace. With spatial auto-layout, dynamic context highlighting, and integrated text nodes for scratchpad thinking, NodePad gives you absolute visual control over the exact context your models see.",
+      "icon": "https://node-pad.com/favicon.svg",
+      "iconStyle": {
+        "scale": 0.8,
+        "padding": "12px",
+        "objectFit": "contain",
+        "backgroundColor": "#000000"
+      },
+      "categories": ["web", "productivity", "developer-tools", "ai"],
+      "platform": "Web",
+      "price": "Free in beta",
+      "github": "https://github.com/palazski/nodepad",
+      "homepage": "https://node-pad.com",
+      "language": "TypeScript",
+      "features": [
+        "Branch conversations into parallel exploration threads from any message",
+        "Infinite visual canvas with spatial node organization",
+        "Multi-model support within the same workspace (soon)",
+        "Real-time LLM response streaming with concurrent operation support",
+        "Dynamic context visibility with path highlighting",
+        "Text nodes for sticky notes, references, and scratchpad thinking",
+        "Graph-native editing where the visual topology acts as your version history"
+      ],
+      "screenshots": [
+        {
+          "url": "https://node-pad.com/screenshots/wvw.png",
+          "description": "Full canvas workspace with multiple connected conversation branches and AI interactions"
+        }
+      ],
+      "links": {
+        "homepage": "https://node-pad.com"
+      }
+    }
+  ]
+}
