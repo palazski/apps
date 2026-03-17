@@ -1,4 +1,5 @@
 {
+  "$schema": "https://wvw.dev/apps.schema.json",
   "version": "1.0.0",
   "store": {
     "name": "palazski's awesome apps",
@@ -12,17 +13,14 @@
       "subtitle": "A visual workspace for cognition-heavy non-linear LLM conversations",
       "description": "Construct, branch, and explore LLM conversations as directed graphs on an infinite canvas. Break free from linear chat with complete spatial control over your context.",
       "longDescription": "NodePad is a visual workspace designed for high-agency users who find traditional, linear AI chats limiting. Every user message and AI response becomes an independent, addressable node on an infinite canvas. This graph-native architecture allows you to seamlessly branch conversations into parallel threads from any point, explore alternative approaches side-by-side, and easily switch between multiple LLM providers within the same workspace. With spatial auto-layout, dynamic context highlighting, and integrated text nodes for scratchpad thinking, NodePad gives you absolute visual control over the exact context your models see.",
-      "icon": "https://raw.githubusercontent.com/palazski/apps/refs/heads/master/favicon.svg",
+      "icon": "https://raw.githubusercontent.com/palazski/apps/master/favicon.svg",
       "iconStyle": {
         "scale": 0.8,
         "padding": "12px",
         "objectFit": "contain",
-        "backgroundColor": "#000000"
+        "bgColor": "#000000"
       },
-      "categories": [
-        { "id": "web", "name": "Web Apps" },
-        { "id": "developer-tools", "name": "Developer Tools" },
-        { "id": "productivity", "name": "Productivity" }],
+      "category": ["web", "developer-tools", "productivity"],
       "platform": "Web",
       "price": "Closed Beta",
       "github": "https://github.com/palazski/apps",
@@ -38,14 +36,8 @@
         "Graph-native editing where the visual topology acts as your version history"
       ],
       "screenshots": [
-        {
-          "url": "https://raw.githubusercontent.com/palazski/apps/refs/heads/master/wvw.png",
-          "description": "Full canvas workspace with multiple connected conversation branches and AI interactions"
-        }
-      ],
-      "links": {
-        "homepage": "https://node-pad.com"
-      }
+        "https://raw.githubusercontent.com/palazski/apps/master/wvw.png"
+      ]
     }
   ]
 }
