@@ -15,8 +15,8 @@
       "longDescription": "NodePad is a visual workspace designed for high-agency users who find traditional, linear AI chats limiting. Every user message and AI response becomes an independent, addressable node on an infinite canvas. This graph-native architecture allows you to seamlessly branch conversations into parallel threads from any point, explore alternative approaches side-by-side, and easily switch between multiple LLM providers within the same workspace. With spatial auto-layout, dynamic context highlighting, and integrated text nodes for scratchpad thinking, NodePad gives you absolute visual control over the exact context your models see.",
       "icon": "https://raw.githubusercontent.com/palazski/apps/master/favicon.svg",
       "iconStyle": {
-        "scale": 0.8,
-        "padding": "12px",
+        "scale": 0.9,
+        "padding": "8px",
         "objectFit": "contain",
         "bgColor": "#000000"
       },
